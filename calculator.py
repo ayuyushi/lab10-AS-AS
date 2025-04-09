@@ -25,8 +25,9 @@ def add(a, b):
 def logarithm(a, b):
     try:
         return math.log(b, a)
-        if b <= 0 or a <= 0:
-        raise ValueError
+    except:
+            if b <= 0 or a <= 0:
+                raise ValueError
 
 def add(a, b):
     return a + b
