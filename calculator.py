@@ -4,6 +4,10 @@ calculator.py
 
 One function per operation, in order.
 """
+# https://github.com/ayuyushi/lab10-AS-AS.git
+# Partner 1: Ayushi Srivastava
+# Partner 2: Ava Savino
+
 import math
 
 # First example

@@ -1,3 +1,7 @@
+# https://github.com/ayuyushi/lab10-AS-AS.git
+# Partner 1: Ayushi Srivastava
+# Partner 2: Ava Savino
+
 import unittest
 from calculator import *
 
