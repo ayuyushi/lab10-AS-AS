@@ -13,7 +13,7 @@ import math
 # First example
 def square_root(a): 
     math.sqrt(a)
-     if a < 0:
+    if a < 0:
         raise ValueError
 
 def hypotenuse(a, b): 
