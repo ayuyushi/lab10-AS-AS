@@ -25,6 +25,7 @@ def logarithm(a, b): loga(b)
         if b <= 0 or a <= 0:
             raise ValueError
 
+
 def exponent(a, b): 
     return a ** b
 
