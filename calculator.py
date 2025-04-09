@@ -7,17 +7,16 @@ One function per operation, in order.
 import math
 
 # First example
+def square_root(a): 
+    math.sqrt(a)
+     if a < 0:
+        raise ValueError
+        
+def hypotenuse(a, b): 
+    math.hypot(a, b)
+
 def add(a, b): 
     return a + b
-
-def multiply(a, b): 
-    return a * b
-
-def divide(a, b): 
-    try:
-        return b / a
-        if a == 0:
-            raise ZeroDivisionError 
 
 def logarithm(a, b): loga(b)
     try:
@@ -25,14 +24,8 @@ def logarithm(a, b): loga(b)
         if b <= 0 or a <= 0:
             raise ValueError
 
-def exponent(a, b): 
-    return a ** b
-
 def add(a, b):
     return a + b
-
-def sub(a, b):
-    return a - b
 
 def mul(a, b):
     return a * b
