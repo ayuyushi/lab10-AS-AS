@@ -41,7 +41,7 @@ class TestCalculator(unittest.TestCase):
         self.assertRaise(ZeroDivisionError, lambda: div(0, 0))
         self.assertRaise(ZeroDivisionError, lambda: div(5, 0))
         self.assertRaise(ZeroDivisionError, lambda: div(-2, 0))
-
+    
     def test_logarithm(self): # 3 assertions
         self.assertAlmostEqual(math.log(100, 10), 2)
         self.assertAlmostEqual(math.log(8, 2), 3)
@@ -54,7 +54,7 @@ class TestCalculator(unittest.TestCase):
     # ##########################
     
     ######## Partner 1
-     def test_log_invalid_argument(self): # 1 assertion
+    def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
         with self.assertRaises(ValueError):
             logarithm(0, 5)
