@@ -20,7 +20,7 @@ def divide(a, b):
     try:
         return b / a
         if a == 0:
-            raise ZeroDivisionError
+            raise ZeroDivisionError 
 
 def logarithm(a, b): loga(b)
     try:
