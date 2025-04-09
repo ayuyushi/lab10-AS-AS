@@ -70,7 +70,9 @@ def test_subtract(self):
     self.assertEqual(sub(-5, 2), -7)
     self.assertEqual(sub(90.5, 40), 50.5)
 def test_divide_by_zero(self):
-    self.assertRaise(Z)
+    self.assertRaise(ZeroDivisionError, lambda: div(0, 0))
+    self.assertRaise(ZeroDivisionError, lambda: div(5, 0))
+    self.assertRaise(ZeroDivisionError, lambda: div(-2, 0))
 def test_logarithm(self):
     self.assertEqual(math.log(100, 10), 2)
     self.assertEqual(math.log(8, 2), 3)
