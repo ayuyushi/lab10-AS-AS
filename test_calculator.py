@@ -43,14 +43,14 @@ class TestCalculator(unittest.TestCase):
         self.assertRaise(ZeroDivisionError, lambda: div(-2, 0))
     
     def test_logarithm(self): # 3 assertions
-        self.assertAlmostEqual(math.log(100, 10), 2)
-        self.assertAlmostEqual(math.log(8, 2), 3)
-        self.assertAlmostEqual(math.log(81, 3), 4)
+        self.assertAlmostEqual(logarithm(100, 10), 2)
+        self.assertAlmostEqual(logarithm(8, 2), 3)
+        self.assertAlmostEqual(logarithm(81, 3), 4)
 
     def test_log_invalid_base(self): # 1 assertion
-        self.assertEqual(ValueError, math.log(100,1))
-        self.assertEqual(ValueError, math.log(100,0))
-        self.assertEqual(ValueError, math.log(100,-2))
+        self.assertEqual(ValueError, logarithm(100,1))
+        self.assertEqual(ValueError, logarithm(100,0))
+        self.assertEqual(ValueError, logarithm(100,-2))
     # ##########################
     
     ######## Partner 1
