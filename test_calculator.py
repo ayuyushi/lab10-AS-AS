@@ -17,10 +17,9 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(mul(2.25, 2.25), 5.0625)
 
     def test_divide(self): # 3 assertions
-        with self.assertRaises(ZeroDivisionError):
-            div(0, 10)
         self.assertAlmostEqual(div(5, 12), 2.4)
         self.assertAlmostEqual(mul(-2.25, -2.5), 1.1111111111111112)
+        self.assertEqual(div(4, 12), 3)
 
 
     # ##########################
@@ -31,6 +30,8 @@ class TestCalculator(unittest.TestCase):
     #     # with self.assertRaises(<INSERT_ERROR_TYPE>):
     #     #     div(0, 5)
     #     fill in code
+        with self.assertRaises(ZeroDivisionError):
+            div(0, 10)
 
     # def test_logarithm(self): # 3 assertions
     #     fill in code
