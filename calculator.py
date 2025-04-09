@@ -1,12 +1,13 @@
+# https://github.com/ayuyushi/lab10-AS-AS.git
+# Partner 1: Ayushi Srivastava
+# Partner 2: Ava Savino
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-# https://github.com/ayuyushi/lab10-AS-AS.git
-# Partner 1: Ayushi Srivastava
-# Partner 2: Ava Savino
 
 import math
 
