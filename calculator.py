@@ -22,6 +22,9 @@ def hypotenuse(a, b):
 def add(a, b): 
     return a + b
 
+def subtract(a, b):
+    return a - b
+
 def logarithm(a, b):
     try:
         return math.log(b, a)
