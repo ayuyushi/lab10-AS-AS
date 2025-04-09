@@ -11,7 +11,7 @@ def square_root(a):
     math.sqrt(a)
      if a < 0:
         raise ValueError
-        
+
 def hypotenuse(a, b): 
     math.hypot(a, b)
 
@@ -34,13 +34,6 @@ def div(a, b):
     if a == 0:
         raise ZeroDivisionError
     return b / a
-
-def log(a, b):
-    if a <= 0 or a == 1:
-        raise ValueError
-    if b <=0:
-        raise ValueError
-    return math.log(b, a)
 
 def exp(a, b):
     return a ** b
